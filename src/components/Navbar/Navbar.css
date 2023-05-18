@@ -1,0 +1,18 @@
+.navbar{
+    height: 15vh;
+    background: rgb(66,18 , 18);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height: 100%;
+width: 150px;
+padding: 10px;
+}
