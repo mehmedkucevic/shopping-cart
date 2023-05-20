@@ -15,9 +15,9 @@ function App() {
       <Navbar />
       <main style={{minHeight:"70vh"}}>
         <Routes>
-          <Route path= "/" element = {Homepage}></Route>
-          <Route path= "/products" element = {Products}></Route>
-          <Route path= "/cart" element = {Cart}></Route>
+          <Route path= "/" element = {<Homepage/>}/>
+          <Route path= "/products" element = {<Products/>}/>
+          <Route path= "/cart" element = {<Cart/>}/>
         </Routes>
       </main>
       <Footer />
