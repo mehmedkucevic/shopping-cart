@@ -1,21 +1,21 @@
 {
-  "name": "shopping-cart",
+  "name": "shopping-cart-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.13.1",
-    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/joy": "^5.0.0-alpha.81",
+    "@mui/material": "^5.13.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2",
-    "react-scripts": "^2.1.8",
-    "styled-components": "^5.3.10",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

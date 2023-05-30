@@ -1,7 +1,7 @@
 import React from "react";
-import "./Home.css";
+import "./Homepage.css";
 
-export default function Home() {
+export default function Homepage() {
   return (
     <div className="home-container">
       <div className="home-text">

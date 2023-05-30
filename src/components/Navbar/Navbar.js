@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 // import logo from "../../assets/images/logo.png";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 export default function Navbar() {
   return (
@@ -28,7 +29,7 @@ export default function Navbar() {
             isActive ? "activeStyles" : "classicStyles"
           }
         >
-          <h2>CART</h2>
+          <ShoppingCartIcon className="cartIcon" fontSize="large" />
         </NavLink>
       </div>
     </header>
