@@ -6,6 +6,7 @@ const AppContext = createContext();
 
 function ContextProvider({ children }) {
   const [products, setProducts] = useState(productsJSON);
+  const [onSaleProducts, setOnSaleProducts] = useState(productsJSON);
   const [cart, setCart] = useState([]);
 
   const addToCart = (id) => {

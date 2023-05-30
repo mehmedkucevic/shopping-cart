@@ -1,6 +1,6 @@
 .navbar {
   height: 15vh;
-  background-color: #2e5b36;
+  background: linear-gradient(to right, #8dffe6, #bd4cff);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,6 +10,7 @@
   width: 18%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
@@ -31,4 +32,24 @@
   text-decoration: none;
   border-radius: 15px;
   color: #ffffff;
+}
+
+.cart-icon-container{
+  width:70px ;
+  height:70px ;
+  background-color: bisque;
+  position: relative;
+}
+.cart-icon{
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: 4px;
+
 }
